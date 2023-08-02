@@ -18,8 +18,9 @@ body {
     font-family: var(--font-base);
     line-height: 1.7;
     color: var(--c-body);  
-     
-
+}
+#sobre p {
+    text-align: justify;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -260,7 +261,7 @@ img{
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-60%, -50%);
     opacity: 0;
 }
 
