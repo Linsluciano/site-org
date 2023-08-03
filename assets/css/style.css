@@ -82,8 +82,8 @@ img{
 /*NAVBAR*/
 .navbar-nav .nav-link {
     font-weight: 500;
-    color: var(--c-dark);  
-  
+    color: var(--c-dark); 
+
 }
 .navbar-nav a:hover{
     font-weight: 500;
@@ -122,6 +122,13 @@ img{
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+.text-decor{
+    color: var(--c-brand);
+    font-size: 1.2rem;
+    font-family: 'ranade', 'sans-serif';
+
+
 }
 
 
