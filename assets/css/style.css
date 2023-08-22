@@ -86,6 +86,7 @@ img{
 
 /*NAVBAR*/
 .navbar-nav .nav-link {
+    border-radius: 3px;
     font-weight: 500;
     color: var(--c-dark); 
 }
@@ -93,7 +94,7 @@ img{
     font-weight: 500;
     color: white;
     background: #b88116;
-    border-radius: 15px;
+
     transition: 2s;   
    
 }
@@ -112,13 +113,13 @@ img{
 .line{
     width: 60px;
     height: 4px;
-    background-color: var(--c-brand);
+    background-color: var(--c-brand-light);
     margin: 16px auto 24px auto;
 }
 .line-sobre{
     width: 60px;
     height: 4px;
-    background-color: var(--c-brand);
+    background-color: var(--c-brand-light);
     /*margin: 16px auto 24px auto;*/
 }
 .section-title p {
@@ -126,7 +127,7 @@ img{
     
 }
 .text-decor{
-    color: var(--c-brand);
+    color: var(--c-brand-light);
     font-size: 1.2rem;
     font-family: 'ranade', 'sans-serif';
 
@@ -142,18 +143,19 @@ img{
     align-items: center;
     justify-content: center;
     background: rgba(var(--c-brand-rgb), 0.2);
-    color: var(--c-brand);
+    color: var(--c-brand-light);
     font-size: 34px;
     flex: none;
 }
 
 .banner-image{
     background-image: url('../imagens/imagem-banner-6.png');
+    background-image: url('../imagens/imagem-banner-6.png');
     background-size: cover;
     height: 100vh;
-    width: auto;
+    width: 98.8vw;
     object-fit: cover;
-    z-index: -1; 
+    z-index: -1;
 }
 
 @media (max-width: 600px) {
