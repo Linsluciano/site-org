@@ -150,7 +150,6 @@ img{
 
 .banner-image{
     background-image: url('../imagens/imagem-banner-6.png');
-    background-image: url('../imagens/imagem-banner-6.png');
     background-size: cover;
     height: 100vh;
     width: 98.8vw;
@@ -159,6 +158,9 @@ img{
 }
 
 @media (max-width: 600px) {
+    .body {
+        overflow-x: scroll;
+    }
     .navbar-nav {
         background-color: rgba(245, 245, 245, 0.685);
         display: block;
@@ -172,7 +174,7 @@ img{
         padding: 10px;
         font-weight: 500;
         color: var(--c-dark);
-        padding: 10pxs;
+        padding: 10px;
         width: 140px;
     }
 
